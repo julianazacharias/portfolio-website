@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <div id="sidebar">
+        <div class="toggle-sidebar">
+            <i class="las la-bars"></i>
+        </div>
+        <div class="style-switcher">
+            <input type="checkbox" id="style-switcher">
+            <label for="style-switcher"></label>
+            <!-- <label for="day-night" class="style-switcher-theme"></label> -->
+            <!-- <i class="sun-moon fa-solid fa-moon"></i>
+            <i class="sun-moon fa-solid fa-sun"></i> -->
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#home" class="inner-link active">
+                        <i class="las la-home"></i>
+                        <span>Home</span>
+                    </a>
+                    <span>Home</span>
+                </li>
+                <li>
+                    <a href="#about_me" class="inner-link">
+                        <i class="las la-address-card"></i>
+                        <span>About Me</span>
+                    </a>
+                    <span>About Me</span>
+                </li>
+                <li>
+                    <a href="#my_resume" class="inner-link">
+                        <i class="las la-file"></i>
+                        <span>My Resume</span>
+                    </a>
+                    <span>My Resume</span>
+                </li>
+                <li>
+                    <a href="#my_work" class="inner-link">
+                        <i class="las la-briefcase"></i>
+                        <span>My Work</span>
+                    </a>
+                    <span>My Work</span>
+                </li>
+                <li>
+                    <a href="#contact_me" class="inner-link">
+                        <i class="las la-phone"></i>
+                        <span>Contact Me</span>
+                    </a>
+                    <span>Contact Me</span>
+                </li>
+            </ul>
+        </nav>
+        <!-- <div class="toggle-mode">
+            <div class="outer">
+                <div class="inner"></div>
+            </div>
+        </div> -->
+    </div>
+    <main>
+        <div class="wrapper">            
+            <section id="home" class="active">
+                <div class="meteor-shower"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 info">
+                            <h1><span>Hello,I'm </span>Juliana</h1>
+                            <div class="field">
+                                <h2></h2>
+                            </div>
+                            <p>
+                                A coder by day, a storyteller by night. 
+                                With a penchant for crafting robust backend solutions and an artistic touch 
+                                in frontend design, my passion goes beyond code - it's about sharing knowledge, 
+                                embracing challenges, and building a better digital world. 
+                                Join me on this journey, and let's create something beautiful together.
+                            </p>
+                            <a class="btn-custom-color" href="assets/files/juliana_zacharias_cv.pdf" target="_blank">Download CV</a>
+                            <div class="socials">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/juliana-z-a51a0111b/" target="_blank">
+                                            <i class="lab la-linkedin-in"></i>
+                                            <span>Linkedin</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/julianazacharias" target="_blank">
+                                            <i class="lab la-github"></i>
+                                            <span>Github</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://julianazacharias.hashnode.dev/" target="_blank">
+                                            <i class="fa-brands fa-hashnode""></i>
+                                            <span>Hashnode</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 image">
+                            <img id="home_image" src="assets/images/cartoon_photo.jpg" alt="person home">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="about_me">
+                <div class="container">
+                    <div class="row hero">
+                        <!-- <div class="col-xxl-6 col-lg-4 image">
+                            <img src="assets/images/about_me_photo.png" alt="person about">
+                        </div> -->
+                        <!-- <div class="col-xxl-6 col-lg-8 info"></div> -->
+                        <div class="info">
+                            <header class="has-bg">
+                                <h1>About Me</h1>
+                            </header>
+                            <!-- <h2>Software Developer</h2> -->
+                            <p>
+                                I'm a Software Developer with a strong focus on back-end development, 
+                                but my skills also encompass front-end application development 
+                                and DevOps practices. I have experience working with a variety of technologies, 
+                                such as Python, .NET, Linux, REST API's, Angular and Cloud Services.
+                                During my carer, I had the opportunity of working for big techs, consulting firms, fintechs and NGOs.
+                                My passion lies in crafting efficient, user-centric solutions. 
+                                Feel free to explore my work, and let's have a chat about potential collaboration opportunities!
+                            </p>
+                            <div class="items">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-6 ps-0" >
+                                            <div class="item">
+                                                <span class="title">Name:</span>
+                                                <span class="value">Juliana</span>
+                                            </div>
+                                            <div class="item">
+                                                <span class="title">Location:</span>
+                                                <span class="value">São Paulo - Brazil</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 ps-0">
+                                            <div class="item">
+                                                <span class="title">Years of experience in tech:</span>
+                                                <span class="value">+4 Years</span>
+                                            </div>
+                                            <div class="item">
+                                                <span class="title">Email:</span>
+                                                <span class="value">julianazacharias.dev@gmail.com</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="buttons">
+                                <a href="assets/files/juliana_zacharias_cv.pdf" target="_blank" class="btn-custom-color">Download CV</a>
+                                <a href="#contact_me" class="btn-custom-dark inner-link">Message me</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="languages-skills">
+                        <div class="row languages-soft-skills">
+                            <div class="languages col-lg-6">
+                                    <header class="custom">
+                                        <h2>Languages</h2>
+                                    </header>          
+                                    <ul class="items">
+                                        <li class="item">
+                                            <div class="info">
+                                                <h3>Portuguese</h3>
+                                                <span class="level">Native</span>
+                                            </div>
+                                            <div class="rate">
+                                                <span class="fill"></span>
+                                                <span class="fill"></span>
+                                                <span class="fill"></span>
+                                                <span class="fill"></span>
+                                                <span class="fill"></span>
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="info">
+                                                <h3>English</h3>
+                                                <span class="level">Fluent</span>
+                                            </div>
+                                            <div class="rate">
+                                                <span class="fill"></span>
+                                                <span class="fill"></span>
+                                                <span class="fill"></span>
+                                                <span class="fill"></span>
+                                                <span></span>
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="info">
+                                                <h3>Spanish</h3>
+                                                <span class="level">Intermediate</span>
+                                            </div>
+                                            <div class="rate">
+                                                <span class="fill"></span>
+                                                <span class="fill"></span>
+                                                <span class="fill"></span>
+                                                <span></span>
+                                                <span></span>
+                                            </div>
+                                        </li>
+                                    </ul>             
+                            </div>
+                            <div class="soft-skills col-lg-6">
+                                <header class="custom">
+                                    <h2>Soft Skills</h2>
+                                </header>
+                                <ul class="items">
+                                    <li class="item">
+                                        <h3>Team working</h3>
+                                        <div class="rate">
+                                            <span class="fill"></span>
+                                            <span class="fill"></span>
+                                            <span class="fill"></span>
+                                            <span class="fill"></span>
+                                            <span class="fill"></span>
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <h3>Communication</h3>
+                                        <div class="rate">
+                                            <span class="fill"></span>
+                                            <span class="fill"></span>
+                                            <span class="fill"></span>
+                                            <span class="fill"></span>
+                                            <span></span>
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <h3>Flexibility</h3>
+                                        <div class="rate">
+                                            <span class="fill"></span>
+                                            <span class="fill"></span>
+                                            <span class="fill"></span>
+                                            <span class="fill"></span>
+                                            <span></span>
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <h3>Problem Solving</h3>
+                                        <div class="rate">
+                                            <span class="fill"></span>
+                                            <span class="fill"></span>
+                                            <span class="fill"></span>
+                                            <span class="fill"></span>
+                                            <span></span>
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <h3>Work under pressure</h3>
+                                        <div class="rate">
+                                            <span class="fill"></span>
+                                            <span class="fill"></span>
+                                            <span class="fill"></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row tech-skills mt-5 mt-lg-0">
+                            <header class="custom">
+                                <h2>Tech skills</h2>
+                            </header>
+                            <div class="container">
+                                <div class="items row">
+                                    <div class="col-xl-2 col-sm-4 col-4 px-2">
+                                        <div class="item">
+                                            <img src="assets/images/tech skills/python.png" alt="python">
+                                            <h3>Python</h3>
+                                            <span class="year">2 years</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-2 col-sm-4 col-4 px-2">
+                                        <div class="item">
+                                            <img src="assets/images/tech skills/flask.png" alt="flask">
+                                            <h3>Flask</h3>
+                                            <span class="year">1 year</span>
+                                        </div>
+                                    </div>
+                                   <div class="col-xl-2 col-sm-4 col-4 px-2">
+                                        <div class="item">
+                                            <img src="assets/images/tech skills/pandas.png" alt="pandas">
+                                            <h3>Pandas</h3>
+                                            <span class="year">1 year</span>
+                                        </div>
+                                    </div>
+                                   <div class="col-xl-2 col-sm-4 col-4 px-2">
+                                        <div class="item">
+                                            <img src="assets/images/tech skills/c-sharp.png" alt="c-sharp">
+                                            <h3>C#</h3>
+                                            <span class="year">3 years</span>
+                                        </div>
+                                    </div>
+                                   <div class="col-xl-2 col-sm-4 col-4 px-2">
+                                        <div class="item">
+                                            <img src="assets/images/tech skills/dot-net.png" alt="dot-net">
+                                            <h3>.NET</h3>
+                                            <span class="year">3 years</span>
+                                        </div>
+                                    </div>
+                                   <div class="col-xl-2 col-sm-4 col-4 px-2">
+                                        <div class="item">
+                                            <img src="assets/images/tech skills/sql.png" alt="sql">
+                                            <h3>SQL</h3>
+                                            <span class="year">4 years</span>
+                                        </div>
+                                    </div>
+                                   <div class="col-xl-2 col-sm-4 col-4 px-2">
+                                        <div class="item">
+                                            <img src="assets/images/tech skills/html5.png" alt="html5">
+                                            <h3>HTML5</h3>
+                                            <span class="year">3 years</span>
+                                        </div>
+                                    </div>
+                                   <div class="col-xl-2 col-sm-4 col-4 px-2">
+                                        <div class="item">
+                                            <img src="assets/images/tech skills/css3.png" alt="css3">
+                                            <h3>CSS3</h3>
+                                            <span class="year">3 years</span>
+                                        </div>
+                                    </div>
+                                   <div class="col-xl-2 col-sm-4 col-4 px-2">
+                                        <div class="item">
+                                            <img src="assets/images/tech skills/js.png" alt="javascript">
+                                            <h3>JavaScript</h3>
+                                            <span class="year">2 years</span>
+                                        </div>
+                                    </div>
+                                   <div class="col-xl-2 col-sm-4 col-4 px-2">
+                                        <div class="item">
+                                            <img src="assets/images/tech skills/ts.png" alt="typescript">
+                                            <h3>TypeScript</h3>
+                                            <span class="year">2 years</span>
+                                        </div>
+                                    </div>
+                                   <div class="col-xl-2 col-sm-4 col-4 px-2">
+                                        <div class="item">
+                                            <img src="assets/images/tech skills/bootstrap.png" alt="bootstrap">
+                                            <h3>Bootstrap</h3>
+                                            <span class="year">2 years</span>
+                                        </div>
+                                    </div>
+                                   <div class="col-xl-2 col-sm-4 col-4 px-2">
+                                        <div class="item">
+                                            <img src="assets/images/tech skills/angular.png" alt="angular">
+                                            <h3>Angular</h3>
+                                            <span class="year">2 years</span>
+                                        </div>
+                                    </div>
+                                   <div class="col-xl-2 col-sm-4 col-4 px-2">
+                                        <div class="item">
+                                            <img src="assets/images/tech skills/linux.png" alt="linux">
+                                            <h3>Linux</h3>
+                                            <span class="year">2 years</span>
+                                        </div>
+                                    </div>
+                                   <div class="col-xl-2 col-sm-4 col-4 px-2">
+                                        <div class="item">
+                                            <img src="assets/images/tech skills/docker.png" alt="docker">
+                                            <h3>Docker</h3>
+                                            <span class="year">1 year</span>
+                                        </div>
+                                    </div>
+                                   <div class="col-xl-2 col-sm-4 col-4 px-2">
+                                        <div class="item">
+                                            <img src="assets/images/tech skills/kubernetes.png" alt="kubernetes">
+                                            <h3>Kubernetes</h3>
+                                            <span class="year">1 year</span>
+                                        </div>
+                                    </div>
+                                   <div class="col-xl-2 col-sm-4 col-4 px-2">
+                                        <div class="item">
+                                            <img src="assets/images/tech skills/gcp.png" alt="gcp">
+                                            <h3>Google Cloud</h3>
+                                            <span class="year">1 year</span>
+                                        </div>
+                                    </div>
+                                   <div class="col-xl-2 col-sm-4 col-4 px-2">
+                                        <div class="item">
+                                            <img src="assets/images/tech skills/aws.png" alt="aws">
+                                            <h3>AWS</h3>
+                                            <span class="year">1 year</span>
+                                        </div>
+                                    </div>
+                                   <div class="col-xl-2 col-sm-4 col-4 px-2">
+                                        <div class="item">
+                                            <img src="assets/images/tech skills/redis.png" alt="redis">
+                                            <h3>Redis</h3>
+                                            <span class="year">1 year</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="my_resume">
+                <div class="text-center">
+                    <header class="has-bg">
+                        <h1>My Resume</h1>
+                    </header>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 education">
+                            <header class="custom">
+                                <h2>Education</h2>
+                            </header>
+                            <div class="items">
+                                <div class="item last">
+                                    <div class="icon">
+                                        <i class="las la-university"></i>
+                                    </div>
+                                    <div class="box">
+                                        <span class="year">2017 - 2018</span>
+                                        <h2 class="title">Systems Analysis & Development</h2>
+                                        <h3>Associate's degree</h3>
+                                        <p>FIAP Institute of Technology</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="icon">
+                                        <i class="las la-university"></i>
+                                    </div>
+                                    <div class="box">
+                                        <span class="year">2015 - 2016</span>
+                                        <h2 class="title">English language</h2>
+                                        <h3>Exchange Program</h3>
+                                        <p>Languages International - New Zealand</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="icon">
+                                        <i class="las la-university"></i>
+                                    </div>
+                                    <div class="box">
+                                        <span class="year">2011 - 2014</span>
+                                        <h2 class="title">Business Administration</h2>
+                                        <h3>Bachelor's degree</h3>
+                                        <p>Pontifical Catholic University of São Paulo</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 experience">
+                            <header class="custom">
+                                <h2>Experience</h2>
+                            </header>
+                            <div class="items">
+                                <div class="item last">
+                                    <div class="icon">
+                                        <i class="las la-briefcase"></i>
+                                    </div>
+                                    <div class="box">
+                                        <span class="year">2022 - 2023</span>
+                                        <h2 class="title">Software Developer</h2>
+                                        <p>Unico ID Tech</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="icon">
+                                        <i class="las la-briefcase"></i>
+                                    </div>
+                                    <div class="box">
+                                        <span class="year">2020 - 2022</span>
+                                        <h2 class="title">Full Stack Developer</h2>
+                                        <p>Vitreo</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="icon">
+                                        <i class="las la-briefcase"></i>
+                                    </div>
+                                    <div class="box">
+                                        <span class="year">2020</span>
+                                        <h2 class="title">Junior Developer</h2>
+                                        <p>Meu Curso</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="icon">
+                                        <i class="las la-briefcase"></i>
+                                    </div>
+                                    <div class="box">
+                                        <span class="year">2019 - 2020</span>
+                                        <h2 class="title">Junior Developer</h2>
+                                        <p>Pro4tech</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="icon">
+                                        <i class="las la-briefcase"></i>
+                                    </div>
+                                    <div class="box">
+                                        <span class="year">2017 - 2018</span>
+                                        <h2 class="title">Developer Intern</h2>
+                                        <p>IBM</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="my_work">
+                <div class="text-center">
+                    <header class="has-bg">
+                        <h1>My Work</h1>
+                    </header>
+                </div>
+                <div class="filters">
+                    <button data-group="all" class="active">
+                        <h4>All</h4>
+                    </button>
+                    <button data-group="Web Developing">
+                        <h4>Web Developing</h4>
+                    </button>
+                    <button data-group="Video">
+                        <h4>Video</h4>
+                    </button>
+                    <button data-group="SEO">
+                        <h4>SEO</h4>
+                    </button>
+                </div>
+                <div class="container">
+                    <div class="row work-items">
+                        <div class="col-sm-6 col-lg-4 item" data-groups='["Web Developing", "SEO"]'>
+                            <div 
+                                class="wrap"
+                                data-image="assets/images/works/1.png"
+                                data-title="Some title"
+                                data-description="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English"
+                                data-client="Test"
+                                data-completed="January 01 2024"
+                                data-skills="HTML, CSS, Javascript"
+                                data-project-link="#"
+                            >
+                                <img src="assets/images/works/1.png" alt="work">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 item" data-groups='["Web Developing", "Video"]'>
+                            <div 
+                                class="wrap"
+                                data-image="assets/images/works/2.png"
+                                data-title="Some title"
+                                data-description="It is a long established fact that a reader will be distracted by the
+                                readable content of a page when looking at its layout. The point of using
+                                Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
+                                opposed to using 'Content here, content here', making it look like readable
+                                English"
+                                data-client="Test"
+                                data-completed="January 01 2024"
+                                data-skills="HTML, CSS, Javascript"
+                                data-project-link="#2"
+                            >
+                                <img src="assets/images/works/2.png" alt="work">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 item" data-groups='["Video", "SEO"]'>
+                            <div 
+                                class="wrap"
+                                data-image="assets/images/works/3.png"
+                                data-title="Some title"
+                                data-description="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English"
+                                data-client="Test"
+                                data-completed="January 01 2024"
+                                data-skills="HTML, CSS, Javascript"
+                                data-project-link="#"
+                            >
+                                <img src="assets/images/works/3.png" alt="work">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 item" data-groups='["Video"]'>
+                            <div 
+                                class="wrap"
+                                data-image="assets/images/works/4.png"
+                                data-title="Some title"
+                                data-description="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English"
+                                data-client="Test"
+                                data-completed="January 01 2024"
+                                data-skills="HTML, CSS, Javascript"
+                                data-project-link="#"
+                            >
+                                <img src="assets/images/works/4.png" alt="work">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 item" data-groups='["Web Developing", "SEO"]'>
+                            <div 
+                                class="wrap"
+                                data-image="assets/images/works/5.png"
+                                data-title="Some title"
+                                data-description="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English"
+                                data-client="Test"
+                                data-completed="January 01 2024"
+                                data-skills="HTML, CSS, Javascript"
+                                data-project-link="#"
+                            >
+                                <img src="assets/images/works/5.png" alt="work">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 item" data-groups='["SEO"]'>
+                            <div 
+                                class="wrap"
+                                data-image="assets/images/works/6.png"
+                                data-title="Some title"
+                                data-description="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English"
+                                data-client="Test"
+                                data-completed="January 01 2024"
+                                data-skills="HTML, CSS, Javascript"
+                                data-project-link="#"
+                            >
+                                <img src="assets/images/works/6.png" alt="work">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact_me">
+                <div class="text-center">
+                    <header class="has-bg">
+                        <h1>Contact Me</h1>
+                    </header>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="info">
+                            <div class="item">
+                                <i class="las la-envelope"></i>
+                                <div class="text">
+                                    <span class="title">Email:</span>
+                                    <a href="mailto:julianazacharias.dev@gmail.com">julianazacharias.dev@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <i class="las la-map-marker-alt"></i>
+                                <div class="text">
+                                    <span class="title">Location:</span>
+                                    <p>São Paulo - Brazil</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="socials">
+                        <ul>
+                            <li>
+                                <a href="https://www.linkedin.com/in/juliana-z-a51a0111b/" target="_blank">
+                                    <i class="lab la-linkedin-in"></i>
+                                    <span>Linkedin</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/julianazacharias" target="_blank">
+                                    <i class="lab la-github"></i>
+                                    <span>Github</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://julianazacharias.hashnode.dev/" target="_blank">
+                                    <i class="fa-brands fa-hashnode""></i>
+                                    <span>Hashnode</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <div class="modal fade" id="workModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="modal-close-button" data-bs-dismiss="modal" aria-label="Close">
+                        <i class="las la-times"></i>
+                    </button>
+                    <img src="" alt="work">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-7 left">
+                                <h2 class="title"></h2>
+                                <p class="description"></p>
+                            </div>
+                            <div class="col-lg-5 right">
+                                <div class="client mb-3">
+                                    <i class="las la-user-alt"></i>
+                                    <span class="title">Client:</span>
+                                    <span class="value"></span>
+                                </div>
+                                <div class="completed mb-3">
+                                    <i class="lar la-calendar-check"></i>
+                                    <span class="title">Completed:</span>
+                                    <span class="value"></span>
+                                </div>
+                                <div class="skills">
+                                    <i class="las la-flask"></i>
+                                    <span class="title">Skills:</span>
+                                    <span class="value"></span>
+                                </div>
+                                <div class="project-link">
+                                    <i class="las la-link"></i>
+                                    <a href="">Project link</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Shuffle/6.1.0/shuffle.min.js" integrity="sha512-r8mIpk3ypCMwNxH6srRZGbjHQlOFt3Mq2vrZ/iymx6g9JUqTeVavofeX6gbrxAC74X5HmBy5gxyhCm6OiXrM0Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

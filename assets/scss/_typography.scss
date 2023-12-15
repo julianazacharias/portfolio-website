@@ -1,0 +1,50 @@
+h1, h2, h4, h5, h6 {
+    font-family: 'Roboto Mono', monospace;
+    //font-family: 'Playfair Display', serif ;
+    //font-family: 'Ubuntu', sans-serif;
+    
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+p {
+    line-height: 175%;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body:not(.light-mode){
+    background: $dark_bg;
+}
+body.light-mode{
+    background: $light_bg;
+}
+
+* {
+    color: $white;
+
+    .light-mode & {
+        color: $gray;
+    }
+}
