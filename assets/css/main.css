@@ -52,18 +52,18 @@ body {
 }
 
 body:not(.light-mode) {
-  background: #171819;
+  background: #191718;
 }
 
 body.light-mode {
-  background: #fff5d9;
+  background: #fff9f1;
 }
 
 * {
   color: #fff;
 }
 .light-mode * {
-  color: rgb(50, 49, 49);
+  color: rgb(57, 57, 57);
 }
 
 main {
@@ -107,10 +107,10 @@ main > section header.custom:before {
   top: 50%;
   transform: translateY(-50%);
   z-index: -1;
-  background: #21282f;
+  background: #311120;
 }
 .light-mode main > section header.custom:before {
-  background: #e4dfb5;
+  background: #fcf2de;
 }
 main > section header.custom h2 {
   display: inline-block;
@@ -127,12 +127,12 @@ main > section header.custom h2 {
   overflow: hidden;
   border: none;
   transition: all 0.3s;
-  color: #4498ed;
-  background: #263448;
+  color: #c65480;
+  background: #5c1031;
 }
 .light-mode .btn-custom-color, .light-mode .btn-custom-dark {
-  color: #8749ae;
-  background: #daaaeb;
+  color: #843bb2;
+  background: #d1a5e1;
 }
 .btn-custom-color:before, .btn-custom-dark:before {
   content: "";
@@ -146,26 +146,26 @@ main > section header.custom h2 {
   transform: translate(-50%, -50%) scale(0);
   z-index: -1;
   transition: all 0.3s;
-  background: #4498ed;
+  background: #c65480;
 }
 .light-mode .btn-custom-color:before, .light-mode .btn-custom-dark:before {
-  background: #8749ae;
+  background: #843bb2;
 }
 .btn-custom-color:hover, .btn-custom-dark:hover {
   color: #fff;
 }
 .light-mode .btn-custom-color:hover, .light-mode .btn-custom-dark:hover {
-  color: rgb(50, 49, 49);
+  color: rgb(57, 57, 57);
 }
 .btn-custom-color:hover:before, .btn-custom-dark:hover:before {
   transform: translate(-50%, -50%) scale(3);
 }
 
 .btn-custom-dark {
-  background: rgba(33, 40, 47, 0.75);
+  background: rgba(49, 17, 32, 0.75);
 }
 .light-mode .btn-custom-dark {
-  background: rgba(228, 223, 181, 0.75);
+  background: rgba(252, 242, 222, 0.75);
 }
 
 #sidebar {
@@ -189,14 +189,14 @@ main > section header.custom h2 {
   background: black;
 }
 .light-mode #sidebar .toggle-sidebar {
-  background: #c9bf6a;
+  background: #f4cd81;
 }
 #sidebar label {
   width: 70px;
   height: 30px;
   position: relative;
   display: block;
-  background: rgb(72, 97, 123);
+  background: rgb(84, 52, 66);
   border-radius: 200px;
   box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.4), inset 0px -5px 15px rgba(255, 255, 255, 0.4);
   cursor: pointer;
@@ -212,7 +212,7 @@ main > section header.custom h2 {
   position: absolute;
   top: 1px;
   left: 3px;
-  background: linear-gradient(180deg, #89c2ff, #09408d);
+  background: linear-gradient(180deg, #9c446e, #821554);
   border-radius: 180px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
@@ -221,7 +221,7 @@ main > section header.custom h2 {
   visibility: hidden;
 }
 #sidebar input:checked + label {
-  background: rgb(249, 234, 159);
+  background: rgb(255, 233, 194);
 }
 #sidebar input:checked + label:after {
   content: "\f185";
@@ -230,7 +230,7 @@ main > section header.custom h2 {
   font-size: 18px;
   left: 66px;
   transform: translateX(-100%);
-  background: linear-gradient(180deg, #f2cc50, #faa243);
+  background: linear-gradient(180deg, #f7d9a4, #ffc551);
 }
 #sidebar label:active:after {
   width: 26px;
@@ -269,20 +269,20 @@ main > section header.custom h2 {
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
   transition: all 0.3s;
-  background: #4498ed;
+  background: #c65480;
 }
 .light-mode #sidebar nav ul li a:before {
-  background: #8749ae;
+  background: #843bb2;
 }
 #sidebar nav ul li a.active:before {
   opacity: 0.15;
   transform: translate(-50%, -50%) scale(1);
 }
 #sidebar nav ul li a.active i {
-  color: #4498ed;
+  color: #c65480;
 }
 .light-mode #sidebar nav ul li a.active i {
-  color: #8749ae;
+  color: #843bb2;
 }
 #sidebar nav ul li a span {
   display: none;
@@ -293,7 +293,7 @@ main > section header.custom h2 {
   color: hsl(300, 3%, 72%);
 }
 .light-mode #sidebar nav ul li a i {
-  color: hsl(300, 1%, 40%);
+  color: hsl(0, 1%, 35%);
 }
 #sidebar nav ul li > span {
   position: absolute;
@@ -305,22 +305,22 @@ main > section header.custom h2 {
   opacity: 0;
   transition: all 0.3s;
   margin-left: 10px;
-  background: rgba(33, 40, 47, 0.75);
+  background: rgba(49, 17, 32, 0.75);
 }
 .light-mode #sidebar nav ul li > span {
-  background: rgba(228, 223, 181, 0.75);
+  background: rgba(252, 242, 222, 0.75);
 }
 #sidebar nav ul li:hover i {
-  color: #4498ed;
+  color: #c65480;
 }
 .light-mode #sidebar nav ul li:hover i {
-  color: #8749ae;
+  color: #843bb2;
 }
 #sidebar nav ul li:hover span {
-  color: #4498ed;
+  color: #c65480;
 }
 .light-mode #sidebar nav ul li:hover span {
-  color: #8749ae;
+  color: #843bb2;
 }
 #sidebar nav ul:hover span {
   opacity: 1;
@@ -347,7 +347,7 @@ main > section header.custom h2 {
   color: hsl(300, 3%, 72%);
 }
 .light-mode #home .info h1 span {
-  color: hsl(300, 1%, 40%);
+  color: hsl(0, 1%, 35%);
 }
 #home .info .field {
   display: flex;
@@ -359,7 +359,7 @@ main > section header.custom h2 {
   color: hsl(300, 3%, 72%);
 }
 .light-mode #home .info .field h2 {
-  color: hsl(300, 1%, 40%);
+  color: hsl(0, 1%, 35%);
 }
 #home .info .field span {
   font-size: 21px;
@@ -392,10 +392,10 @@ main > section header.custom h2 {
 }
 #home .info ul li a:hover {
   border-radius: 6px;
-  background: #21282f;
+  background: #311120;
 }
 .light-mode #home .info ul li a:hover {
-  background: #e4dfb5;
+  background: #fcf2de;
 }
 #home .info ul li a:hover span,
 #home .info ul li a:hover i {
@@ -403,7 +403,7 @@ main > section header.custom h2 {
 }
 .light-mode #home .info ul li a:hover span,
 .light-mode #home .info ul li a:hover i {
-  color: rgb(50, 49, 49);
+  color: rgb(57, 57, 57);
 }
 #home .info ul li a i {
   font-size: 28px;
@@ -412,14 +412,14 @@ main > section header.custom h2 {
   color: hsl(300, 3%, 72%);
 }
 .light-mode #home .info ul li a i {
-  color: hsl(300, 1%, 40%);
+  color: hsl(0, 1%, 35%);
 }
 #home .info ul li a span {
   transition: all 0.3s;
-  color: #888b8d;
+  color: #8d888b;
 }
 .light-mode #home .info ul li a span {
-  color: #9f33cd;
+  color: #6f4e7d;
 }
 #home .image {
   height: 100vh;
@@ -450,10 +450,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 19vh;
-  left: 53vw;
-  animation: meteor 7727ms linear infinite;
-  animation-delay: 294ms;
+  top: 32vh;
+  left: 8vw;
+  animation: meteor 5388ms linear infinite;
+  animation-delay: 2958ms;
 }
 #home .meteor-shower .meteor:nth-child(2) {
   position: absolute;
@@ -461,10 +461,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 21vh;
-  left: 33vw;
-  animation: meteor 3341ms linear infinite;
-  animation-delay: 1774ms;
+  top: 8vh;
+  left: 11vw;
+  animation: meteor 7075ms linear infinite;
+  animation-delay: 3102ms;
 }
 #home .meteor-shower .meteor:nth-child(3) {
   position: absolute;
@@ -472,10 +472,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 45vh;
-  left: 24vw;
-  animation: meteor 7727ms linear infinite;
-  animation-delay: 4249ms;
+  top: 33vh;
+  left: 29vw;
+  animation: meteor 4594ms linear infinite;
+  animation-delay: 2126ms;
 }
 #home .meteor-shower .meteor:nth-child(4) {
   position: absolute;
@@ -483,10 +483,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 40vh;
+  top: 35vh;
   left: 12vw;
-  animation: meteor 5208ms linear infinite;
-  animation-delay: 1852ms;
+  animation: meteor 6081ms linear infinite;
+  animation-delay: 2512ms;
 }
 #home .meteor-shower .meteor:nth-child(5) {
   position: absolute;
@@ -494,10 +494,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 69vh;
-  left: 65vw;
-  animation: meteor 7587ms linear infinite;
-  animation-delay: 2605ms;
+  top: 51vh;
+  left: 56vw;
+  animation: meteor 6164ms linear infinite;
+  animation-delay: 1653ms;
 }
 #home .meteor-shower .meteor:nth-child(6) {
   position: absolute;
@@ -505,10 +505,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 66vh;
-  left: 49vw;
-  animation: meteor 6868ms linear infinite;
-  animation-delay: 3221ms;
+  top: 24vh;
+  left: 77vw;
+  animation: meteor 5984ms linear infinite;
+  animation-delay: 2825ms;
 }
 #home .meteor-shower .meteor:nth-child(7) {
   position: absolute;
@@ -516,10 +516,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 67vh;
-  left: 50vw;
-  animation: meteor 5602ms linear infinite;
-  animation-delay: 132ms;
+  top: 16vh;
+  left: 79vw;
+  animation: meteor 4854ms linear infinite;
+  animation-delay: 1085ms;
 }
 #home .meteor-shower .meteor:nth-child(8) {
   position: absolute;
@@ -527,10 +527,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 23vh;
-  left: 50vw;
-  animation: meteor 5173ms linear infinite;
-  animation-delay: 3258ms;
+  top: 59vh;
+  left: 3vw;
+  animation: meteor 5652ms linear infinite;
+  animation-delay: 4175ms;
 }
 #home .meteor-shower .meteor:nth-child(9) {
   position: absolute;
@@ -538,10 +538,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 49vh;
-  left: 28vw;
-  animation: meteor 6826ms linear infinite;
-  animation-delay: 1195ms;
+  top: 62vh;
+  left: 48vw;
+  animation: meteor 4699ms linear infinite;
+  animation-delay: 3182ms;
 }
 #home .meteor-shower .meteor:nth-child(10) {
   position: absolute;
@@ -549,10 +549,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 16vh;
-  left: 57vw;
-  animation: meteor 6571ms linear infinite;
-  animation-delay: 1101ms;
+  top: 56vh;
+  left: 39vw;
+  animation: meteor 5996ms linear infinite;
+  animation-delay: 4697ms;
 }
 #home .meteor-shower .meteor:nth-child(11) {
   position: absolute;
@@ -560,10 +560,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 49vh;
-  left: 54vw;
-  animation: meteor 5853ms linear infinite;
-  animation-delay: 3046ms;
+  top: 73vh;
+  left: 67vw;
+  animation: meteor 4762ms linear infinite;
+  animation-delay: 1526ms;
 }
 #home .meteor-shower .meteor:nth-child(12) {
   position: absolute;
@@ -571,10 +571,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 28vh;
-  left: 5vw;
-  animation: meteor 6325ms linear infinite;
-  animation-delay: 1766ms;
+  top: 34vh;
+  left: 54vw;
+  animation: meteor 7927ms linear infinite;
+  animation-delay: 16ms;
 }
 #home .meteor-shower .meteor:nth-child(13) {
   position: absolute;
@@ -582,10 +582,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 21vh;
-  left: 27vw;
-  animation: meteor 5726ms linear infinite;
-  animation-delay: 923ms;
+  top: 30vh;
+  left: 42vw;
+  animation: meteor 7722ms linear infinite;
+  animation-delay: 2298ms;
 }
 #home .meteor-shower .meteor:nth-child(14) {
   position: absolute;
@@ -593,10 +593,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 20vh;
-  left: 80vw;
-  animation: meteor 3885ms linear infinite;
-  animation-delay: 1588ms;
+  top: 39vh;
+  left: 37vw;
+  animation: meteor 7161ms linear infinite;
+  animation-delay: 439ms;
 }
 #home .meteor-shower .meteor:nth-child(15) {
   position: absolute;
@@ -604,10 +604,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 44vh;
-  left: 4vw;
-  animation: meteor 7563ms linear infinite;
-  animation-delay: 4045ms;
+  top: 20vh;
+  left: 49vw;
+  animation: meteor 6374ms linear infinite;
+  animation-delay: 1356ms;
 }
 
 @keyframes meteor {
@@ -643,7 +643,7 @@ main > section header.custom h2 {
   color: hsl(300, 3%, 72%);
 }
 .light-mode #about_me .hero .info p {
-  color: hsl(300, 1%, 40%);
+  color: hsl(0, 1%, 35%);
 }
 #about_me .hero .info .items {
   margin-top: 60px;
@@ -658,7 +658,7 @@ main > section header.custom h2 {
   color: hsl(300, 3%, 72%);
 }
 .light-mode #about_me .hero .info .items .item .value {
-  color: hsl(300, 1%, 40%);
+  color: hsl(0, 1%, 35%);
 }
 #about_me .hero .info .buttons {
   display: inline-flex;
@@ -685,10 +685,10 @@ main > section header.custom h2 {
   width: 15px;
   height: 15px;
   border-radius: 4px;
-  background: #21282f;
+  background: #311120;
 }
 .light-mode #about_me .rate span:before {
-  background: #e4dfb5;
+  background: #fcf2de;
 }
 #about_me .rate span:after {
   position: absolute;
@@ -697,16 +697,16 @@ main > section header.custom h2 {
   height: 15px;
   border-radius: 4px;
   transform: rotate(50deg);
-  background: #21282f;
+  background: #311120;
 }
 .light-mode #about_me .rate span:after {
-  background: #e4dfb5;
+  background: #fcf2de;
 }
 #about_me .rate span.fill:before, #about_me .rate span.fill:after {
-  background: #4498ed;
+  background: #c65480;
 }
 .light-mode #about_me .rate span.fill:before, .light-mode #about_me .rate span.fill:after {
-  background: #8749ae;
+  background: #843bb2;
 }
 #about_me .languages-skills {
   margin-top: 126px;
@@ -735,7 +735,7 @@ main > section header.custom h2 {
   color: hsl(300, 3%, 72%);
 }
 .light-mode #about_me .languages-skills .languages-soft-skills .languages .items .item .info .level {
-  color: hsl(300, 1%, 40%);
+  color: hsl(0, 1%, 35%);
 }
 #about_me .languages-skills .languages-soft-skills .soft-skills {
   padding: 0px 50px;
@@ -763,17 +763,17 @@ main > section header.custom h2 {
   border-radius: 8px;
   z-index: 1;
   overflow: hidden;
-  background: #21282f;
+  background: #311120;
 }
 .light-mode #about_me .languages-skills .tech-skills .items .item {
-  background: #e4dfb5;
+  background: #fcf2de;
 }
 #about_me .languages-skills .tech-skills .items .item:hover {
   transition: all 0.3s;
-  background: #0b3f73;
+  background: #4e1a2e;
 }
 .light-mode #about_me .languages-skills .tech-skills .items .item:hover {
-  background: rgba(135, 73, 174, 0.5);
+  background: rgba(132, 59, 178, 0.2);
 }
 #about_me .languages-skills .tech-skills .items .item img {
   margin-bottom: 21px;
@@ -782,10 +782,10 @@ main > section header.custom h2 {
   margin-bottom: 8px;
 }
 #about_me .languages-skills .tech-skills .items .item .year {
-  color: #fb6753;
+  color: #53fb9f;
 }
 .light-mode #about_me .languages-skills .tech-skills .items .item .year {
-  color: #0a60e1;
+  color: #0069cc;
 }
 
 #my_resume {
@@ -805,7 +805,7 @@ main > section header.custom h2 {
 }
 #my_resume h3 {
   margin-bottom: 10px;
-  font-size: 22px;
+  font-size: 18px;
 }
 #my_resume .custom {
   margin-bottom: 40px;
@@ -822,28 +822,28 @@ main > section header.custom h2 {
 }
 #my_resume .items .item.last .icon i,
 #my_resume .items .item.last .box .title {
-  color: #4498ed;
+  color: #c65480;
 }
 .light-mode #my_resume .items .item.last .icon i,
 .light-mode #my_resume .items .item.last .box .title {
-  color: #8749ae;
+  color: #843bb2;
 }
 #my_resume .items .item:hover .icon,
 #my_resume .items .item:hover .icon:before {
-  background: rgba(9, 50, 92, 0.4);
+  background: rgba(59, 20, 35, 0.4);
 }
 .light-mode #my_resume .items .item:hover .icon,
 .light-mode #my_resume .items .item:hover .icon:before {
-  background: rgba(107, 58, 138, 0.2);
+  background: rgba(104, 46, 140, 0.2);
 }
 #my_resume .items .item:hover .box {
   background: transparent;
 }
 #my_resume .items .item:hover .box:before {
-  border-right-color: rgba(9, 50, 92, 0.4);
+  border-right-color: rgba(59, 20, 35, 0.4);
 }
 .light-mode #my_resume .items .item:hover .box:before {
-  border-right-color: rgba(107, 58, 138, 0.2);
+  border-right-color: rgba(104, 46, 140, 0.2);
 }
 #my_resume .items .item:hover .box:after {
   width: 100%;
@@ -856,7 +856,7 @@ main > section header.custom h2 {
   width: 46px;
   height: 46px;
   border-radius: 50%;
-  font-size: 18px;
+  font-size: 20px;
   margin-right: 46px;
   margin-top: 23px;
   transition: all 0.3s;
@@ -870,12 +870,12 @@ main > section header.custom h2 {
   position: absolute;
   width: 1px;
   height: 126px;
+  background: #311120;
   top: 82px;
   transition: all 0.3s;
-  background: #21282f;
 }
 .light-mode #my_resume .items .item .icon:before {
-  background: #e4dfb5;
+  background: #fcf2de;
 }
 #my_resume .items .item .box {
   position: relative;
@@ -884,10 +884,12 @@ main > section header.custom h2 {
   text-align: left;
   z-index: 1;
   transition: all 0.3s;
-  background: rgba(33, 40, 47, 0.75);
+  background: rgba(49, 17, 32, 0.75);
+  width: 350px; /* Adjust the width as needed */
+  height: 230px; /* Adjust the height as needed */
 }
 .light-mode #my_resume .items .item .box {
-  background: rgba(228, 223, 181, 0.75);
+  background: rgba(252, 242, 222, 0.75);
 }
 #my_resume .items .item .box:before {
   content: "";
@@ -896,10 +898,10 @@ main > section header.custom h2 {
   border-bottom: 9px solid transparent;
   left: -9px;
   top: 36px;
-  border-right: 9px solid rgba(33, 40, 47, 0.75);
+  border-right: 9px solid rgba(49, 17, 32, 0.75);
 }
 .light-mode #my_resume .items .item .box:before {
-  border-right: 9px solid rgba(228, 223, 181, 0.75);
+  border-right: 9px solid rgba(252, 242, 222, 0.75);
 }
 #my_resume .items .item .box:after {
   content: "";
@@ -911,34 +913,35 @@ main > section header.custom h2 {
   border-radius: 8px;
   z-index: -1;
   transition: all 0.3s;
-  background: rgba(9, 50, 92, 0.4);
+  background: rgba(59, 20, 35, 0.4);
 }
 .light-mode #my_resume .items .item .box:after {
-  background: rgba(107, 58, 138, 0.2);
+  background: rgba(104, 46, 140, 0.2);
 }
 #my_resume .items .item .box .year {
   display: inline-block;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   margin-bottom: 16px;
 }
 #my_resume .items .item .box .title {
   margin-bottom: 16px;
+  font-size: 18px;
 }
 #my_resume .items .item .box p {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 400;
   max-width: 345px;
   color: hsl(300, 3%, 72%);
 }
 .light-mode #my_resume .items .item .box p {
-  color: hsl(300, 1%, 40%);
+  color: hsl(0, 1%, 35%);
 }
 #my_resume .education {
-  padding-right: 34px;
+  padding-right: 5px;
 }
 #my_resume .experience {
-  padding-left: 34px;
+  padding-left: 5px;
 }
 
 #my_work {
@@ -959,21 +962,21 @@ main > section header.custom h2 {
   margin-right: 8px;
   margin-left: 8px;
   margin-bottom: 16px;
-  background: #21282f;
-  color: #888b8d;
+  background: #311120;
+  color: #8d888b;
 }
 .light-mode #my_work .filters button {
-  background: #e4dfb5;
-  color: #9f33cd;
+  background: #fcf2de;
+  color: #6f4e7d;
 }
 #my_work .filters button.active {
   border-radius: 8px;
-  background: rgba(68, 152, 237, 0.6);
+  background: rgba(198, 84, 128, 0.6);
   color: #fff;
 }
 .light-mode #my_work .filters button.active {
-  background: rgba(135, 73, 174, 0.6);
-  color: rgb(50, 49, 49);
+  background: rgba(132, 59, 178, 0.6);
+  color: rgb(57, 57, 57);
 }
 #my_work .work-items .item {
   margin-bottom: 24px;
@@ -999,10 +1002,10 @@ main > section header.custom h2 {
   transform: rotate(-100deg);
   transform-origin: top left;
   transition: all 0.3s;
-  background: rgba(68, 152, 237, 0.6);
+  background: rgba(198, 84, 128, 0.6);
 }
 .light-mode #my_work .work-items .item .wrap:before {
-  background: rgba(135, 73, 174, 0.6);
+  background: rgba(132, 59, 178, 0.6);
 }
 #my_work .work-items .item .wrap:after {
   content: "View";
@@ -1022,10 +1025,10 @@ main > section header.custom h2 {
   z-index: 2;
   cursor: pointer;
   transition: all 0.3s;
-  background: rgba(23, 24, 25, 0.8);
+  background: rgba(25, 23, 24, 0.8);
 }
 .light-mode #my_work .work-items .item .wrap:after {
-  background: rgba(255, 245, 217, 0.8);
+  background: rgba(255, 249, 241, 0.8);
 }
 #my_work .work-items .item .wrap img {
   width: 100%;
@@ -1039,10 +1042,10 @@ main > section header.custom h2 {
 }
 .modal#workModal .modal-dialog .modal-content {
   padding: 32px;
-  background: #21282f;
+  background: #311120;
 }
 .light-mode .modal#workModal .modal-dialog .modal-content {
-  background: #e4dfb5;
+  background: #fcf2de;
 }
 .modal#workModal .modal-dialog .modal-content .modal-body {
   padding: 0;
@@ -1058,13 +1061,13 @@ main > section header.custom h2 {
   border-radius: 50%;
   border: none;
   transition: all 0.3s;
-  background: #04192e;
+  background: #14070c;
 }
 .light-mode .modal#workModal .modal-dialog .modal-content .modal-body .modal-close-button {
-  background: #8749ae;
+  background: #843bb2;
 }
 .modal#workModal .modal-dialog .modal-content .modal-body .modal-close-button:hover {
-  background: #09325c;
+  background: #3b1423;
 }
 .light-mode .modal#workModal .modal-dialog .modal-content .modal-body .modal-close-button:hover {
   background: black;
@@ -1088,7 +1091,7 @@ main > section header.custom h2 {
   color: hsl(300, 3%, 72%);
 }
 .light-mode .modal#workModal .modal-dialog .modal-content .modal-body .left p {
-  color: hsl(300, 1%, 40%);
+  color: hsl(0, 1%, 35%);
 }
 .modal#workModal .modal-dialog .modal-content .modal-body .right {
   padding-right: 0;
@@ -1103,7 +1106,7 @@ main > section header.custom h2 {
   color: hsl(300, 3%, 72%);
 }
 .light-mode .modal#workModal .modal-dialog .modal-content .modal-body .right .value {
-  color: hsl(300, 1%, 40%);
+  color: hsl(0, 1%, 35%);
 }
 .modal#workModal .modal-dialog .modal-content .modal-body .right .project-link {
   margin-top: 32px;
@@ -1111,11 +1114,11 @@ main > section header.custom h2 {
 .modal#workModal .modal-dialog .modal-content .modal-body .right .project-link a,
 .modal#workModal .modal-dialog .modal-content .modal-body .right .project-link i {
   text-decoration: none;
-  color: #4498ed;
+  color: #c65480;
 }
 .light-mode .modal#workModal .modal-dialog .modal-content .modal-body .right .project-link a,
 .light-mode .modal#workModal .modal-dialog .modal-content .modal-body .right .project-link i {
-  color: #8749ae;
+  color: #843bb2;
 }
 .modal#workModal .modal-dialog .modal-content .modal-body .right .project-link a:hover {
   text-decoration: underline;
@@ -1144,10 +1147,10 @@ main > section header.custom h2 {
   margin-bottom: 50px;
 }
 #contact_me .container .info .item:hover i {
-  background: #1058a2;
+  background: #742744;
 }
 .light-mode #contact_me .container .info .item:hover i {
-  background: rgba(135, 73, 174, 0.5);
+  background: rgba(132, 59, 178, 0.5);
 }
 #contact_me .container .info .item i {
   display: flex;
@@ -1163,13 +1166,13 @@ main > section header.custom h2 {
   background: rgba(255, 255, 255, 0.05);
 }
 .light-mode #contact_me .container .info .item i {
-  background: rgba(50, 49, 49, 0.05);
+  background: rgba(57, 57, 57, 0.05);
 }
 #contact_me .container .info .item .text .title {
   color: hsl(300, 3%, 72%);
 }
 .light-mode #contact_me .container .info .item .text .title {
-  color: hsl(300, 1%, 40%);
+  color: hsl(0, 1%, 35%);
 }
 #contact_me .container .info .item .text a {
   display: block;
@@ -1177,7 +1180,7 @@ main > section header.custom h2 {
   color: #fff;
 }
 .light-mode #contact_me .container .info .item .text a {
-  color: rgb(50, 49, 49);
+  color: rgb(57, 57, 57);
 }
 #contact_me .container .socials {
   padding-top: 100px;
@@ -1203,10 +1206,10 @@ main > section header.custom h2 {
 }
 #contact_me .container .socials ul li a:hover {
   border-radius: 6px;
-  background: #21282f;
+  background: #311120;
 }
 .light-mode #contact_me .container .socials ul li a:hover {
-  background: #e4dfb5;
+  background: #fcf2de;
 }
 #contact_me .container .socials ul li a:hover span,
 #contact_me .container .socials ul li a:hover i {
@@ -1214,7 +1217,7 @@ main > section header.custom h2 {
 }
 .light-mode #contact_me .container .socials ul li a:hover span,
 .light-mode #contact_me .container .socials ul li a:hover i {
-  color: rgb(50, 49, 49);
+  color: rgb(57, 57, 57);
 }
 #contact_me .container .socials ul li a i {
   font-size: 28px;
@@ -1223,14 +1226,14 @@ main > section header.custom h2 {
   color: hsl(300, 3%, 72%);
 }
 .light-mode #contact_me .container .socials ul li a i {
-  color: hsl(300, 1%, 40%);
+  color: hsl(0, 1%, 35%);
 }
 #contact_me .container .socials ul li a span {
   transition: all 0.3s;
-  color: #888b8d;
+  color: #8d888b;
 }
 .light-mode #contact_me .container .socials ul li a span {
-  color: #9f33cd;
+  color: #6f4e7d;
 }
 
 @media (min-width: 1400px) {
@@ -1275,7 +1278,7 @@ main > section header.custom h2 {
     background: black;
   }
   .light-mode #sidebar {
-    background: #e4dfb5;
+    background: #fcf2de;
   }
   #sidebar.open {
     transform: translateX(0);
@@ -1339,10 +1342,10 @@ main > section header.custom h2 {
     left: -23px;
     z-index: 2;
     margin-top: 0;
-    background: rgba(33, 40, 47, 0.75);
+    background: rgba(49, 17, 32, 0.75);
   }
   .light-mode #my_resume .items .item .icon {
-    background: #e4dfb5;
+    background: #fcf2de;
   }
   #my_resume .items .item .icon:before {
     display: none;

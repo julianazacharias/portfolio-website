@@ -1,25 +1,25 @@
 //dark-mode colors
 $white: #fff;
-$dark_bg: #171819;
-$dark_secondary: #21282f;
-$dark_primary: #4498ed;
+$dark_bg: #191718;
+$dark_secondary: #311120;
+$dark_primary: #c65480;
 $dark_gray: hsl(300, 3%, 72%);
-$dark_secondary_gray: #888b8d;
-$dark_years: #fb6753;
-$dark_button_bg: #263448;
+$dark_secondary_gray: #8d888b;
+$dark_years: #53fb9f;
+$dark_button_bg: #5c1031;
 $dark_icon_bg: #ff15150d;
-$dark_toggle_background: rgb(72, 97, 123);
-$dark_toggle_button: linear-gradient(180deg, #89c2ff, #09408d);
+$dark_toggle_background: rgb(84, 52, 66);
+$dark_toggle_button: linear-gradient(180deg, #9c446e, #821554);
 
 //light-mode colors
-$gray: rgb(50, 49, 49);
-$light_bg: #fff5d9;
-$light_secondary: #e4dfb5;
-$light_primary: #8749ae;
-$light_gray: hsl(300, 1%, 40%);
-$light_secondary_gray: #9f33cd;
-$light_years: #0a60e1;
-$light_button_bg: #daaaeb;
+$gray: rgb(57, 57, 57);
+$light_bg: #fff9f1;
+$light_secondary: #fcf2de;
+$light_primary: #843bb2;
+$light_gray: hsl(0, 1%, 35%);
+$light_secondary_gray: #6f4e7d;
+$light_years: #0069cc;
+$light_button_bg: #d1a5e1;
 $light_icon_bg: #ff15150d;
-$light_toggle_background: rgb(249, 234, 159);
-$light_toggle_button: linear-gradient(180deg, #f2cc50, #faa243);
+$light_toggle_background: rgb(255, 233, 194);
+$light_toggle_button: linear-gradient(180deg, #f7d9a4, #ffc551);

@@ -215,7 +215,7 @@
                     background: darken($dark_primary, 35%);
 
                     .light-mode & {
-                        background: rgba($light_primary, 0.5);
+                        background: rgba($light_primary, 20%);
                     }
 
                 }
