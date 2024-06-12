@@ -1,171 +1,168 @@
 #home {
-    background-image: url('../images/mandala.png');
-    background-repeat: no-repeat;
-    background-position: 57vw -230px;
-    
-    .light-mode & {
-        background-image: url('../images/flower.png');
-        background-position: 62vw -10px;
-    }
+	background-image: url("../images/mandala.png");
+	background-repeat: no-repeat;
+	background-position: 57vw -230px;
 
-    .info {
-        padding-top: 215px;
-        z-index: 1;
+	.light-mode & {
+		background-image: url("../images/flower.png");
+		background-position: 62vw -10px;
+	}
 
-        h1 {
-            margin-bottom: 24px;
+	.info {
+		padding-top: 215px;
+		z-index: 1;
 
-            span {
-                color: $dark_gray;
+		h1 {
+			margin-bottom: 24px;
 
-                .light-mode & {
-                    color: $light_gray;
-                }
-            }
-        }
+			span {
+				color: $dark_gray;
 
-        .field {            
-            display: flex;
-            align-items: center;
-            margin-bottom: 16px;
+				.light-mode & {
+					color: $light_gray;
+				}
+			}
+		}
 
-            h2 {
-                margin: 0;
-                color: $dark_gray;
+		.field {
+			display: flex;
+			align-items: center;
+			margin-bottom: 16px;
 
-                .light-mode & {
-                    color: $light_gray;
-                }
-            }
+			h2 {
+				margin: 0;
+				color: $dark_gray;
 
-            span {
-                font-size: 21px;
-                margin-left: 2px;
-            }
-        }
+				.light-mode & {
+					color: $light_gray;
+				}
+			}
 
-        p {
-            max-width: 490px;
-            margin-bottom: 74px;
-            text-align: justify;
-        }
+			span {
+				font-size: 21px;
+				margin-left: 2px;
+			}
+		}
 
-        .socials {
-            margin-top: 120px;
-        }
+		p {
+			max-width: 490px;
+			margin-bottom: 74px;
+			text-align: justify;
+		}
 
-        ul {
-            display: flex;
-            flex-wrap: wrap;
-            list-style: none;
-            margin: 0;
-            padding: 0;
+		.socials {
+			margin-top: 120px;
+		}
 
-            li {
-                margin-right: 40px;
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+			list-style: none;
+			margin: 0;
+			padding: 0;
 
-                a {
-                    display: flex;
-                    align-items: center;
-                    text-decoration: none;
-                    padding: 9px 11px;
-                    transition: all 0.3s;
+			li {
+				margin-right: 40px;
 
-                    &:hover {
-                        border-radius: 6px;
-                        background: $dark_secondary;
+				a {
+					display: flex;
+					align-items: center;
+					text-decoration: none;
+					padding: 9px 11px;
+					transition: all 0.3s;
 
-                        .light-mode & {
-                            background: $light_secondary;
-                        }
+					&:hover {
+						border-radius: 6px;
+						background: $dark_secondary;
 
-                        span,
-                        i {
-                            color: $white;
+						.light-mode & {
+							background: $light_secondary;
+						}
 
-                            .light-mode & {
-                                color: $gray;
-                            }
-                        }
-                    }
+						span,
+						i {
+							color: $white;
 
-                    i {
-                        font-size: 28px;
-                        margin-right: 8px;
-                        transition: all 0.3s;
-                        color: $dark_gray;
-                        
-                        .light-mode & {
-                            color: $light_gray;
-                        }
-                    }
+							.light-mode & {
+								color: $gray;
+							}
+						}
+					}
 
-                    span {
-                        transition: all 0.3s;
-                        color: $dark_secondary_gray;
+					i {
+						font-size: 28px;
+						margin-right: 8px;
+						transition: all 0.3s;
+						color: $dark_gray;
 
-                        .light-mode & {
-                            color: $light_secondary_gray;
-                        }
-                    }
-                }
-            }
-        }
-    }
+						.light-mode & {
+							color: $light_gray;
+						}
+					}
 
-    .image {
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        z-index: 1;
+					span {
+						transition: all 0.3s;
+						color: $dark_secondary_gray;
 
-        img {
-            border-radius: 8px;
-            max-width: 100%;
-            transition: all 0.3s;
+						.light-mode & {
+							color: $light_secondary_gray;
+						}
+					}
+				}
+			}
+		}
+	}
 
-            &:hover {
-                filter: grayscale(0.5);
-            }
-        }
-    }
-    
-    .meteor-shower {
-        position: absolute;
-        width: 100%;
-        height: 100vh;
-        right: 0;
-        top: 0;
-        overflow: hidden;
+	.image {
+		height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		z-index: 1;
 
-        @for $i from 1 through 15 {
-            .meteor:nth-child(#{$i}) {
-                position: absolute;
-                background-image: url('../images/meteor.png');
-                width: 60px;
-                height: 49px;
-                opacity: 0;
-                top: #{random(80) + 'vh'};
-                left: #{random(80) + 'vw'};
-                animation: meteor #{random(5000) + 3000 + 'ms'} linear infinite;
-                animation-delay: #{random(5000) + 'ms'};
-                
-            }
-        }
+		img {
+			border-radius: 8px;
+			max-width: 100%;
+			transition: all 0.3s;
 
-    }
-    
+			&:hover {
+				filter: grayscale(0.5);
+			}
+		}
+	}
+
+	.meteor-shower {
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		right: 0;
+		top: 0;
+		overflow: hidden;
+
+		@for $i from 1 through 15 {
+			.meteor:nth-child(#{$i}) {
+				position: absolute;
+				background-image: url("../images/meteor.png");
+				width: 60px;
+				height: 49px;
+				opacity: 0;
+				top: #{random(80) + "vh"};
+				left: #{random(80) + "vw"};
+				animation: meteor #{random(5000) + 3000 + "ms"} linear infinite;
+				animation-delay: #{random(5000) + "ms"};
+			}
+		}
+	}
 }
 
 @keyframes meteor {
-    0% {
-        transform: translate(300px, -300px);
-        opacity: 1;
-    }
+	0% {
+		transform: translate(300px, -300px);
+		opacity: 1;
+	}
 
-    15% {
-        transform: translate(-300px, 300px);
-        opacity: 0;
-    }
+	15% {
+		transform: translate(-300px, 300px);
+		opacity: 0;
+	}
 }

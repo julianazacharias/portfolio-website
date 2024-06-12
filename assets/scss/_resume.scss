@@ -62,7 +62,7 @@
 					background: transparent;
 
 					&:before {
-						border-right-color: rgba(darken($dark_primary, 40%), 0.4);
+						border-right-color: darken($dark_primary, 35%);
 
 						.light-mode & {
 							border-right-color: rgba(darken($light_primary, 10%), 0.2);
@@ -147,7 +147,7 @@
 					border-radius: 8px;
 					z-index: -1;
 					transition: all 0.3s;
-					background: rgba(darken($dark_primary, 40%), 0.4);
+					background: darken($dark_primary, 35%);
 
 					.light-mode & {
 						background: rgba(darken($light_primary, 10%), 0.2);
